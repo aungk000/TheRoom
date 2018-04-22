@@ -1,5 +1,5 @@
 # TheRoom
-Using Room database + official Android Architecture Components
+Example for using Room database + official Android Architecture Components
 
 Google samples
 --------------
