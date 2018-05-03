@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
@@ -13,12 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import me.aungkooo.theroom.R;
-import me.aungkooo.theroom.Utils;
+import me.aungkooo.theroom.util.Utils;
 import me.aungkooo.theroom.database.User;
 import me.aungkooo.theroom.listener.OnDialogDismissListener;
 

@@ -1,4 +1,4 @@
-package me.aungkooo.theroom;
+package me.aungkooo.theroom.util;
 
 import android.support.design.widget.TextInputEditText;
 

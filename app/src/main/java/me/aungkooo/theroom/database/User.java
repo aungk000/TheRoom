@@ -13,7 +13,7 @@ import android.arch.persistence.room.PrimaryKey;
 public class User
 {
     @PrimaryKey(autoGenerate = true)
-    private int userId;
+    private long userId;
 
     @ColumnInfo(name = "username")
     private String username;
@@ -26,11 +26,11 @@ public class User
         this.email = email;
     }
 
-    public int getUserId() {
+    public long getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(long userId) {
         this.userId = userId;
     }
 

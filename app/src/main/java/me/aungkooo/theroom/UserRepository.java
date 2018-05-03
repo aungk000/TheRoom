@@ -5,6 +5,7 @@ import android.arch.lifecycle.LiveData;
 
 import java.util.List;
 
+import me.aungkooo.theroom.asynctask.DeleteTask;
 import me.aungkooo.theroom.asynctask.InsertTask;
 import me.aungkooo.theroom.database.User;
 import me.aungkooo.theroom.database.UserDao;
@@ -34,5 +35,11 @@ public class UserRepository
     {
         InsertTask insertTask = new InsertTask(userDao);
         insertTask.execute(user);
+    }
+
+    public void deleteUser(User user)
+    {
+        DeleteTask deleteTask = new DeleteTask(userDao);
+        deleteTask.execute(user);
     }
 }

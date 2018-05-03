@@ -22,7 +22,7 @@ public interface UserDao
     void insertUser(User user);
 
     @Query("DELETE FROM user WHERE userId = :id")
-    void deleteUser(int id);
+    void deleteUser(long id);
 
     @Delete
     void deleteUser(User user);
